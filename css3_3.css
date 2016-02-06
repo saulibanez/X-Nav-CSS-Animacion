@@ -29,6 +29,7 @@ abbr {
 	font-size: 130%;
 	color: #ff2166;
 	border-bottom: 1px dotted #888;
+	text-shadow: 1px 1px #333;
 }
 
 p {
