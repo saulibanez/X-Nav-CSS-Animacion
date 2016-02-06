@@ -15,7 +15,8 @@ body {
 	border-radius: 15px;
 	box-shadow: 20px 20px 20px 20px rgb(255,255,255);
 	background: linear-gradient(#444444, #999999);
-	transform: rotateY(180deg);
+	animation-duration: 5s;
+	animation-name: animacion;
 }
 
 header { 
@@ -40,6 +41,18 @@ p {
  	line-height: 50px;
  	margin: 0 0 0 0;
 	width: auto;
-} 
+}
+
+@keyframes animacion {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 
 
